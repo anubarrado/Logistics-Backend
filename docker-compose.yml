@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  user.api:
+    image: ${DOCKER_REGISTRY-}userapi
+    build:
+      context: .
+      dockerfile: User.API/Dockerfile
+    depends_on:
+      - mongo
+
+  application.api:
+    image: ${DOCKER_REGISTRY-}applicationapi
+    build:
+      context: .
+      dockerfile: Application.API/Dockerfile
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      #MONGO_INITDB_ROOT_USERNAME: 
+      #MONGO_INITDB_ROOT_PASSWORD: 
+      MONGO_INITDB_DATABASE: logistics
+    ports:
+      - 27017:27017
+    volumes:
+      - .data:/data/db
+

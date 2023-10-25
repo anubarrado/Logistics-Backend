@@ -7,19 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Endpoints", "Endpoints", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layers", "Layers", "{A1573EBC-4367-4A95-9579-975E6AC087C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.API", "Application.API\Application.API.csproj", "{54C881E5-7B2C-483A-B705-A6AD85D9403F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.API", "Application.API\Application.API.csproj", "{54C881E5-7B2C-483A-B705-A6AD85D9403F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.API", "User.API\User.API.csproj", "{60181C87-F25D-4517-92B4-5EA6DD69BBC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.API", "User.API\User.API.csproj", "{60181C87-F25D-4517-92B4-5EA6DD69BBC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.BusinessCore", "Logistics.BusinessCore\Logistics.BusinessCore.csproj", "{FF110422-65A6-4A51-9721-EBEC8C837BE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logistics.BusinessCore", "Logistics.BusinessCore\Logistics.BusinessCore.csproj", "{FF110422-65A6-4A51-9721-EBEC8C837BE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.Entity", "Logistics.Entity\Logistics.Entity.csproj", "{6C6B4262-58ED-4404-827D-7CB869F436A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logistics.Entity", "Logistics.Entity\Logistics.Entity.csproj", "{6C6B4262-58ED-4404-827D-7CB869F436A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.Data", "Logistics.Data\Logistics.Data.csproj", "{2C6D2164-1700-41BC-9D97-1AB8EE3AC67B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logistics.Data", "Logistics.Data\Logistics.Data.csproj", "{2C6D2164-1700-41BC-9D97-1AB8EE3AC67B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D2B69C84-AAB2-4583-A354-448E706AB2EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.DTOs", "Logistics.DTOs\Logistics.DTOs.csproj", "{9AD50A99-9550-42DA-9B50-D1D75F024166}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logistics.DTOs", "Logistics.DTOs\Logistics.DTOs.csproj", "{9AD50A99-9550-42DA-9B50-D1D75F024166}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1C4C90BD-32C1-455E-B931-C8B91EC858D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{9AD50A99-9550-42DA-9B50-D1D75F024166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AD50A99-9550-42DA-9B50-D1D75F024166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AD50A99-9550-42DA-9B50-D1D75F024166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4C90BD-32C1-455E-B931-C8B91EC858D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4C90BD-32C1-455E-B931-C8B91EC858D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4C90BD-32C1-455E-B931-C8B91EC858D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4C90BD-32C1-455E-B931-C8B91EC858D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
